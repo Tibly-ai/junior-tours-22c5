@@ -1,0 +1,209 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="canonical" href="https://junior-tours-22c5.sites.tibly.ai/request-a-quote"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://junior-tours-22c5.sites.tibly.ai/request-a-quote"/>
+<meta property="og:site_name" content="Junior Tours"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+<link href="https://fonts.googleapis.com/css2?family=Benne:wght@400;600;700&amp;family=Playfair+Display:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/styles.css?v=5a8dc55d"/>
+</head>
+<body>
+<!-- block:header -->
+<header class="bg-[#f2f2f2] text-[#3a4d52] font-body">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-20">
+      <a href="/" class="shrink-0">
+        <img src="https://br-winter-boat-ajcnusyq.storage.c-3.us-east-2.aws.neon.tech/tibly-site-media/sites/d9366fb6-0cec-4047-9e69-c496ae738072/15ea961a282d12323da3527b811bd867.png" alt="Junior Tours" class="h-14 w-auto"/>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 font-display text-base">
+        <a href="/about-us" class="hover:text-brand-600">About Us</a>
+        <a href="/student-tour-destinations" class="hover:text-brand-600">Destinations</a>
+        <div class="relative group">
+          <a href="/resources" class="hover:text-brand-600 flex items-center gap-1">
+            Resources
+            <svg class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+          </a>
+          <div class="absolute left-0 top-full hidden group-hover:block group-focus-within:block bg-[#f2f2f2] text-[#3a4d52] shadow-lg rounded-md min-w-[10rem] py-2 z-10">
+            <a href="/resources" class="block px-4 py-2 hover:bg-brand-600 hover:text-white">Trip Leaders</a>
+            <a href="/resources" class="block px-4 py-2 hover:bg-brand-600 hover:text-white">Parents</a>
+          </div>
+        </div>
+        <a href="/request-a-quote" class="hover:text-brand-600">Request Quote</a>
+      </nav>
+      <nav class="md:hidden flex items-center gap-4 font-display text-sm">
+        <a href="/about-us" class="hover:text-brand-600">About</a>
+        <a href="/student-tour-destinations" class="hover:text-brand-600">Destinations</a>
+        <a href="/resources" class="hover:text-brand-600">Resources</a>
+        <a href="/request-a-quote" class="hover:text-brand-600">Quote</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /block:header -->
+<!-- block:hero -->
+<section class="bg-surface py-16" data-block="hero">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+    <h1 class="font-display text-4xl text-ink mb-4">Request a Quote</h1>
+    <p class="text-brand-700 mb-8">Tell us about your group and we&#39;ll put together a custom tour proposal. It only takes a few minutes.</p>
+    <form method="POST" action="https://api.tibly.ai/api/public/site-forms" class="text-left">
+      <input type="hidden" name="_page" value="/request-a-quote"/>
+      <input type="text" name="_gotcha" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true"/>
+      <div class="bg-white rounded-DEFAULT shadow p-6">
+        <label class="block font-display text-lg text-ink mb-3">Have you led a school trip before? *</label>
+        <div class="flex gap-6">
+          <label class="flex items-center gap-2 text-brand-700">
+            <input type="radio" name="led_trip_before" value="Yes" required=""/> Yes
+          </label>
+          <label class="flex items-center gap-2 text-brand-700">
+            <input type="radio" name="led_trip_before" value="No"/> No
+          </label>
+        </div>
+      </div>
+</form></div></section>
+<!-- /block:hero -->
+<!-- block:name -->
+<section class="bg-surface py-8" data-block="name">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-DEFAULT shadow p-6">
+        <label class="block font-display text-lg text-ink mb-3">Name *</label>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <input type="text" name="first_name" placeholder="First name" required="" class="border border-brand-200 rounded-DEFAULT p-3"/>
+          <input type="text" name="last_name" placeholder="Last name" required="" class="border border-brand-200 rounded-DEFAULT p-3"/>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 mt-4">
+          <input type="tel" name="phone" placeholder="Phone number" class="border border-brand-200 rounded-DEFAULT p-3"/>
+          <input type="email" name="email" placeholder="Email address" required="" class="border border-brand-200 rounded-DEFAULT p-3"/>
+        </div>
+        <input type="text" name="school" placeholder="School name" class="border border-brand-200 rounded-DEFAULT p-3 w-full mt-4"/>
+      </div>
+  </div>
+</section>
+<!-- /block:name -->
+<!-- block:address -->
+<section class="bg-surface py-8" data-block="address">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-DEFAULT shadow p-6">
+        <label class="block font-display text-lg text-ink mb-3">School Address *</label>
+        <div class="grid gap-4">
+          <input type="text" name="street" placeholder="Street address" required="" class="border border-brand-200 rounded-DEFAULT p-3"/>
+          <div class="grid gap-4 sm:grid-cols-3">
+            <input type="text" name="city" placeholder="City" required="" class="border border-brand-200 rounded-DEFAULT p-3"/>
+            <input type="text" name="state" placeholder="State" required="" class="border border-brand-200 rounded-DEFAULT p-3"/>
+            <input type="text" name="zip" placeholder="Zip code" required="" class="border border-brand-200 rounded-DEFAULT p-3"/>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- /block:address -->
+<!-- block:destinations -->
+<section class="bg-surface py-8" data-block="destinations">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-DEFAULT shadow p-6">
+        <label class="block font-display text-lg text-ink mb-2">Destinations of Interest *</label>
+        <p class="text-sm text-brand-600 mb-3">Choose up to 3.</p>
+        <div class="grid gap-2 sm:grid-cols-2 text-brand-700">
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="New York"/> New York</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Washington D.C."/> Washington D.C.</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Orlando Disney"/> Orlando Disney</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Orlando Universal"/> Orlando Universal</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Atlanta"/> Atlanta</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Boston"/> Boston</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Chicago"/> Chicago</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="New Orleans"/> New Orleans</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Philadelphia"/> Philadelphia</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Williamsburg"/> Williamsburg</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="London"/> London</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Paris"/> Paris</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Quebec City / Montreal"/> Quebec City / Montreal</label>
+          <label class="flex items-center gap-2"><input type="checkbox" name="destinations" value="Toronto / Niagara Falls"/> Toronto / Niagara Falls</label>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- /block:destinations -->
+<!-- block:goals -->
+<section class="bg-surface py-8 pb-16" data-block="goals">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-DEFAULT shadow p-6">
+        <label class="block font-display text-lg text-ink mb-3">Goals for the Trip *</label>
+        <textarea name="message" rows="5" required="" placeholder="Tell us what you&#39;d like your students to experience and learn." class="border border-brand-200 rounded-DEFAULT p-3 w-full"></textarea>
+        <button type="submit" class="mt-6 inline-block bg-brand-600 text-white font-display px-8 py-3 rounded-DEFAULT hover:bg-brand-700">Submit Request</button>
+        <p class="text-sm text-brand-600 mt-4">Questions before you send this in? Call us at
+          <a href="tel:8006312241" data-tibly-field="phone" class="hover:text-brand-700">(800) 631-2241</a>
+          or email
+          <a href="mailto:info@juniortours.com" data-tibly-field="email" class="hover:text-brand-700">info@juniortours.com</a>.
+        </p>
+      </div>
+    
+  </div>
+</section>
+<!-- /block:goals -->
+<!-- block:footer -->
+<footer class="bg-[#3a4d52] text-[#ffffff] font-body">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+    <div>
+      <h2 class="font-display text-xl mb-3"><span data-tibly-field="business-name">Junior Tours</span></h2>
+      <p class="text-sm text-white/80">A smarter approach to student travel. Planning school trips since our founders were classroom teachers themselves.</p>
+      <div data-tibly-field="links" class="flex gap-4 mt-4">
+        <a href="https://facebook.com" class="hover:text-brand-600">Facebook</a>
+        <a href="https://instagram.com" class="hover:text-brand-600">Instagram</a>
+      </div>
+    </div>
+    <div>
+      <h3 class="font-display text-lg mb-3">Explore</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/" class="hover:text-brand-600">Home</a></li>
+        <li><a href="/about-us" class="hover:text-brand-600">About Us</a></li>
+        <li><a href="/student-tour-destinations" class="hover:text-brand-600">Destinations</a></li>
+        <li><a href="/resources" class="hover:text-brand-600">Resources</a></li>
+        <li><a href="/request-a-quote" class="hover:text-brand-600">Request Quote</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-display text-lg mb-3">Tours</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="/new-york-city-drama-tour" class="hover:text-brand-600">New York City Drama Tour</a></li>
+        <li><a href="/classic-8th-grade-washington-d-c-tour" class="hover:text-brand-600">Classic 8th Grade Washington D C Tour</a></li>
+        <li><a href="/orlando-epic-adventure" class="hover:text-brand-600">Orlando Epic Adventure</a></li>
+        <li><a href="/new-york-city" class="hover:text-brand-600">New York City</a></li>
+        <li><a href="/washington-d-c" class="hover:text-brand-600">Washington D.C.</a></li>
+        <li><a href="/orlando" class="hover:text-brand-600">Orlando</a></li>
+        <li><a href="/atlanta" class="hover:text-brand-600">Atlanta</a></li>
+        <li><a href="/boston" class="hover:text-brand-600">Boston</a></li>
+        <li><a href="/chicago" class="hover:text-brand-600">Chicago</a></li>
+        <li><a href="/new-orleans" class="hover:text-brand-600">New Orleans</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="font-display text-lg mb-3">Contact</h3>
+      <ul class="space-y-2 text-sm">
+        <li>
+          <a href="tel:8006312241" data-tibly-field="phone" class="hover:text-brand-600">(800) 631-2241</a>
+        </li>
+        <li>
+          <a href="mailto:info@juniortours.com" data-tibly-field="email" class="hover:text-brand-600">info@juniortours.com</a>
+        </li>
+        <li>
+          <span data-tibly-field="address">120 Liberty Lane, Suite 4, Concord, NH 03301</span>
+        </li>
+        <li>
+          <span data-tibly-field="hours">Mon-Fri 9:00am-5:00pm</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-white/20 py-4 text-center text-xs text-white/70">
+    <span data-tibly-field="business-name">Junior Tours</span>. All rights reserved.
+  </div>
+</footer>
+<!-- /block:footer -->
+  <script async="" src="https://api.tibly.ai/widget/v1.js"></script>
+
+
+</body></html>
